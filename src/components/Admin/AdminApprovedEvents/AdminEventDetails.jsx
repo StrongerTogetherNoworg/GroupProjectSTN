@@ -527,7 +527,7 @@ export default function AdminEventDetails() {
                                             height="200"
                                             frameBorder={0}
                                             style={{ border: 0 }}
-                                            src={`https://www.google.com/maps/embed/v1/place?key=AIzaSyDX4e7v69d8lQVeWvBOcs-Bt9mFS2VVogg&q=${detail.address1}${detail.address2}${detail.city}${detail.state}${detail.zip}`}
+                                            src={`https://www.google.com/maps/embed/v1/place?key=AIzaSyDi5NrORtGhLfGvkilMErETmmbT0Gch8T8&q=${detail.address1}${detail.address2}${detail.city}${detail.state}${detail.zip}`}
                                             allowFullScreen
                                         ></iframe>
                                     </Grid>
